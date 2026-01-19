@@ -1,0 +1,24 @@
+{
+  \"template\": {
+    \"roiCalculator\": {
+      \"inputs\": {
+        \"socialSpend\": 1000,
+        \"leadsGenerated\": 50,
+        \"conversionRate\": 0.2,
+        \"avgProjectValue\": 15000,
+        \"timeframe\": \"Q1 2026\"
+      },
+      \"calculations\": {
+        \"qualifiedLeads\": \"=leadsGenerated * conversionRate\",
+        \"revenuePotential\": \"=qualifiedLeads * avgProjectValue\",
+        \"roi\": \"=(revenuePotential - socialSpend) / socialSpend * 100\"
+      },
+      \"outputs\": {
+        \"qualifiedLeads\": 10,
+        \"revenuePotential\": 150000,
+        \"roi\": \"14900%\"
+      },
+      \"usageInstructions\": \"Step 1: Input your social media budget and leads from platforms (e.g., LinkedIn campaigns). Step 2: Adjust conversion (historical avg. 20% for B2B consulting) and project value (premium services avg. $15k). Step 3: Run formulas in Excel/Google Sheets—copy this JSON as base. Step 4: Track quarterly; optimize low-ROI channels (e.g., if Twitter <5%, shift to YouTube). For software consulting, factor long cycles: Add 'pipeline value' for 6-month nurture. Example: $1k LinkedIn spend → 50 leads → 10 consults → $150k pipeline = 149x ROI.\"
+    }
+  }
+}

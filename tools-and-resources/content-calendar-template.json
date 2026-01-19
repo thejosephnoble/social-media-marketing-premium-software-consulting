@@ -1,0 +1,31 @@
+{
+  \"template\": {
+    \"month\": \"January 2026\",
+    \"themes\": [\"AI Trends\", \"Cloud Migration\", \"Cybersecurity\"],
+    \"weeklyStructure\": [
+      {
+        \"day\": \"Monday\",
+        \"type\": \"Educational Post\",
+        \"platform\": \"LinkedIn\",
+        \"example\": \"Article: 'AI Ethics in Software Consulting' - Link to blog, CTA: Free audit\"
+      },
+      {
+        \"day\": \"Wednesday\",
+        \"type\": \"Quick Tip\",
+        \"platform\": \"Twitter/X\",
+        \"example\": \"#DevOps Tip: Automate testing to cut deployment time 50%. Thread link.\"
+      },
+      {
+        \"day\": \"Friday\",
+        \"type\": \"Video/Engagement\",
+        \"platform\": \"YouTube/LinkedIn\",
+        \"example\": \"Tutorial clip: Microservices setup. Poll: What's your biggest challenge?\"
+      }
+    ],
+    \"metricsTracking\": {
+      \"goals\": [\"Engagement >2%\", \"Leads: 10/month\"],
+      \"tools\": [\"Hootsuite for scheduling\", \"Google Analytics for conversions\"]
+    },
+    \"usageInstructions\": \"Customize themes for your consulting niche. Schedule via Buffer. Review weekly: Adjust based on performance (e.g., if videos outperform, add more). For premium focus, ensure 70% value content, 30% promotional. Export to CSV for team sharing.\"
+  }
+}
